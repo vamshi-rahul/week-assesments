@@ -33,17 +33,17 @@ public class StudentMain {
 
 			if (stu.getAge() % 2 == 0) {
 
-				List<Student> le = new ArrayList();
+				List<Student> evenlist = new ArrayList();
 
-				le.add(map.get(i));
+				evenlist.add(map.get(i));
 
 
 
 			} else {
 
-				List<Student> lo = new ArrayList();
+				List<Student> oddlist = new ArrayList();
 
-				lo.add(map.get(i));
+				oddlist.add(map.get(i));
 
 			}
 
