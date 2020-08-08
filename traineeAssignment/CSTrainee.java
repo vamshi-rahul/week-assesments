@@ -2,7 +2,7 @@ package traineeAssignment;
 
 public class CSTrainee extends Trainee{
 	private String lang;
-	public  Trainee(int id,String name,String lang)
+	public  CSTrainee(int id,String name,String lang)
 	{
 		super(id,name);
 		this.lang=lang;
