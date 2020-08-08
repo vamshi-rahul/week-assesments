@@ -27,7 +27,7 @@ public class StudentMain {
 
 			List<String> r = new ArrayList();
 
-			r.add(map. getRollno());
+			r.add(i);
 
 
 
@@ -35,7 +35,7 @@ public class StudentMain {
 
 				List<Student> evenlist = new ArrayList();
 
-				evenlist.add(map.get(i));
+				evenlist.add(stu);
 
 
 
@@ -43,7 +43,7 @@ public class StudentMain {
 
 				List<Student> oddlist = new ArrayList();
 
-				oddlist.add(map.get(i));
+				oddlist.add(stu);
 
 			}
 
