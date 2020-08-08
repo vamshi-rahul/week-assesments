@@ -7,6 +7,7 @@ public class Student {
 			this.rollno=rollno;
 			this.age=age;
 		}
+
 		public String getRollno() {
 			return rollno;
 		}

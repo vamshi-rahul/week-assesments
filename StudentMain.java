@@ -19,23 +19,23 @@ public class StudentMain {
 		
 		Set<String> keys = map.keySet();
 
-		for (String k : keys) {
+		for (String  i: keys) {
 
-			Student s = map.get(k);
+			Student stu = map.get(i);
 
 
 
 			List<String> r = new ArrayList();
 
-			r.add(s.getRollNo());
+			r.add(map. getRollno());
 
 
 
-			if (s.getAge() % 2 == 0) {
+			if (stu.getAge() % 2 == 0) {
 
 				List<Student> le = new ArrayList();
 
-				le.add(map.get(k));
+				le.add(map.get(i));
 
 
 
@@ -43,7 +43,7 @@ public class StudentMain {
 
 				List<Student> lo = new ArrayList();
 
-				lo.add(map.get(k));
+				lo.add(map.get(i));
 
 			}
 
